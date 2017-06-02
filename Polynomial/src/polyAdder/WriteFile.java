@@ -43,7 +43,7 @@ public class WriteFile implements Write {
 	      }
 		catch ( FileNotFoundException f)
 		{
-			System.err.print("File Not Found! or unable to create file, or problems opening!");
+			System.err.print("File Not Found, Unable to Create file, or Problems Opening the File!");
 			System.exit(1); // terminate the program
 		}
 	}
